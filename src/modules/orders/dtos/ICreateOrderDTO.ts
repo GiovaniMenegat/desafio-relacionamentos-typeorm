@@ -7,6 +7,6 @@ interface IProduct {
 }
 
 export default interface ICreateOrderDTO {
-  customer: Customer;
+  customer: Customer | undefined;
   products: IProduct[];
 }
